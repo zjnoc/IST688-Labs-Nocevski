@@ -72,13 +72,12 @@ def build_lab4_vectordb():
 
 
 # Show title and description.
-st.title("Chad the Chatbot")
+st.title("Chad the Course Advisor")
 
 st.write(
-    "Hi! I'm Chad, a chatbot that can read up to two web pages and answer "
-    "questions about them. You can also choose which AI model I use, OpenAI "
-    "or Gemini. I remember the last 6 messages of our conversation, so feel "
-    "free to ask follow-up questions. Ready to chat?"
+    "Hi! I'm Chad, your course advisor chatbot. I've read through the "
+    "syllabi for several IST courses, so feel free to ask me about course "
+    "topics, what you'll learn, or which class might be the right fit for you."
 )
 
 OPENAI_API_KEY = st.secrets.OPEN_AI_KEY
