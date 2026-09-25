@@ -6,7 +6,7 @@ Lab_03 = st.Page("Lab_03.py", title="Lab_03")
 Lab_04 = st.Page("Lab_04.py", title="Lab_04")
 Lab_05 = st.Page("Lab_05.py", title="Lab_05", default=True)
 
-pg = st.navigation([Lab_01, Lab_02, Lab_03, Lab_04], Lab_05)
+pg = st.navigation([Lab_01, Lab_02, Lab_03, Lab_04, Lab_05])
 
 st.set_page_config(page_title="Lab Manager")
 
