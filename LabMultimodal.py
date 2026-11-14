@@ -57,7 +57,7 @@ question = st.text_input("Optional question about your upload")
 
 if upload is not None:
     if mode == "Image":
-        st.image(upload)
+        st.image(upload.getvalue())
     else:
         st.audio(upload)
 
